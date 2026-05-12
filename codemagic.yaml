@@ -6,7 +6,7 @@ workflows:
           - app_store_credentials
         vars:
           XCODE_WORKSPACE: "175MiraluneEchofield.xcworkspace"
-          XCODE_SCHEME: "173Nov175MiraluneEchofieldiraEchoJournal"
+          XCODE_SCHEME: "175MiraluneEchofield"
           BUNDLE_ID: "com.ava.m1r6l8n33ch0f13ld"
           APP_STORE_APP_ID: 6764544142
         xcode: latest
