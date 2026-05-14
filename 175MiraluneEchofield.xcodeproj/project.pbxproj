@@ -46,7 +46,29 @@
 		305A67EB2FB3C70800067722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67BC2FB3C70800067722 /* ContentView.swift */; };
 		305A67EC2FB3C70800067722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67C32FB3C70800067722 /* SceneDelegate.swift */; };
 		305A67ED2FB3C70800067722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67C42FB3C70800067722 /* ViewController.swift */; };
+		8887B5712FB602CD0037DC4D /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8887B5702FB602CD0037DC4D /* AlamofireDynamic */; };
+		8887B5742FB602DD0037DC4D /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 8887B5732FB602DD0037DC4D /* AppsFlyerLib-Static */; };
+		8887B5772FB603820037DC4D /* MiraluneEchofieldModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887B5762FB603800037DC4D /* MiraluneEchofieldModels.swift */; };
+		8887B5792FB6039B0037DC4D /* MiraluneEchofieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887B5782FB603960037DC4D /* MiraluneEchofieldManager.swift */; };
+		8887B57B2FB603AA0037DC4D /* MiraluneEchofieldService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887B57A2FB603A00037DC4D /* MiraluneEchofieldService.swift */; };
+		8887B57D2FB603B10037DC4D /* MiraluneEchofieldUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887B57C2FB603AE0037DC4D /* MiraluneEchofieldUI.swift */; };
+		8887B57F2FB604570037DC4D /* MiraluneEchofieldMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887B57E2FB604560037DC4D /* MiraluneEchofieldMainView.swift */; };
+		8887B5802FB6048D0037DC4D /* AlamofireDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 8887B5702FB602CD0037DC4D /* AlamofireDynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8887B5812FB6048D0037DC4D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8887B5802FB6048D0037DC4D /* AlamofireDynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		305A64C52FB3B02E00067722 /* 175MiraluneEchofield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 175MiraluneEchofield.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +112,12 @@
 		305A67C22FB3C70800067722 /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
 		305A67C32FB3C70800067722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		305A67C42FB3C70800067722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8887B56E2FB602780037DC4D /* 175MiraluneEchofield.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 175MiraluneEchofield.entitlements; sourceTree = "<group>"; };
+		8887B5762FB603800037DC4D /* MiraluneEchofieldModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraluneEchofieldModels.swift; sourceTree = "<group>"; };
+		8887B5782FB603960037DC4D /* MiraluneEchofieldManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraluneEchofieldManager.swift; sourceTree = "<group>"; };
+		8887B57A2FB603A00037DC4D /* MiraluneEchofieldService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraluneEchofieldService.swift; sourceTree = "<group>"; };
+		8887B57C2FB603AE0037DC4D /* MiraluneEchofieldUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraluneEchofieldUI.swift; sourceTree = "<group>"; };
+		8887B57E2FB604560037DC4D /* MiraluneEchofieldMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraluneEchofieldMainView.swift; sourceTree = "<group>"; };
 		9D59AF147893AD360822245F /* Pods-175MiraluneEchofield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-175MiraluneEchofield.debug.xcconfig"; path = "Target Support Files/Pods-175MiraluneEchofield/Pods-175MiraluneEchofield.debug.xcconfig"; sourceTree = "<group>"; };
 		B079523A2A9BC80D6CACC103 /* Pods-175MiraluneEchofield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-175MiraluneEchofield.release.xcconfig"; path = "Target Support Files/Pods-175MiraluneEchofield/Pods-175MiraluneEchofield.release.xcconfig"; sourceTree = "<group>"; };
 		C5278CE945B41A8FCAAE16A2 /* Pods_175MiraluneEchofield.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_175MiraluneEchofield.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8887B5712FB602CD0037DC4D /* AlamofireDynamic in Frameworks */,
+				8887B5742FB602DD0037DC4D /* AppsFlyerLib-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +166,7 @@
 		305A67912FB3C70800067722 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				8887B57E2FB604560037DC4D /* MiraluneEchofieldMainView.swift */,
 				305A678C2FB3C70800067722 /* AppExternalLink.swift */,
 				305A678D2FB3C70800067722 /* AppStorage.swift */,
 				305A678E2FB3C70800067722 /* DailyChallengeSpec.swift */,
@@ -261,6 +292,7 @@
 		305A67B72FB3C70800067722 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				8887B5752FB603770037DC4D /* Data */,
 				305A67B12FB3C70800067722 /* AchievementSnapshot.swift */,
 				305A67B22FB3C70800067722 /* AmbientGridBackdrop.swift */,
 				305A67B32FB3C70800067722 /* AppPrimaryButton.swift */,
@@ -282,6 +314,7 @@
 		305A67C52FB3C70800067722 /* 175MiraluneEchofield */ = {
 			isa = PBXGroup;
 			children = (
+				8887B56E2FB602780037DC4D /* 175MiraluneEchofield.entitlements */,
 				305A67912FB3C70800067722 /* Core */,
 				305A67942FB3C70800067722 /* Design */,
 				305A67B02FB3C70800067722 /* Features */,
@@ -298,6 +331,17 @@
 				305A67C42FB3C70800067722 /* ViewController.swift */,
 			);
 			path = 175MiraluneEchofield;
+			sourceTree = "<group>";
+		};
+		8887B5752FB603770037DC4D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8887B57C2FB603AE0037DC4D /* MiraluneEchofieldUI.swift */,
+				8887B57A2FB603A00037DC4D /* MiraluneEchofieldService.swift */,
+				8887B5782FB603960037DC4D /* MiraluneEchofieldManager.swift */,
+				8887B5762FB603800037DC4D /* MiraluneEchofieldModels.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		B2CCEFFD795A8C90505DB75A /* Frameworks */ = {
@@ -319,6 +363,7 @@
 				305A64C12FB3B02E00067722 /* Sources */,
 				305A64C22FB3B02E00067722 /* Frameworks */,
 				305A64C32FB3B02E00067722 /* Resources */,
+				8887B5812FB6048D0037DC4D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -353,6 +398,10 @@
 				Base,
 			);
 			mainGroup = 305A64BC2FB3B02E00067722;
+			packageReferences = (
+				8887B56F2FB602CD0037DC4D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8887B5722FB602DD0037DC4D /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
 			productRefGroup = 305A64C62FB3B02E00067722 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -424,6 +473,8 @@
 				305A67DA2FB3C70800067722 /* MainTabView.swift in Sources */,
 				305A67DB2FB3C70800067722 /* OnboardingView.swift in Sources */,
 				305A67DC2FB3C70800067722 /* ActivityHintSheet.swift in Sources */,
+				8887B57F2FB604570037DC4D /* MiraluneEchofieldMainView.swift in Sources */,
+				8887B57B2FB603AA0037DC4D /* MiraluneEchofieldService.swift in Sources */,
 				305A67DD2FB3C70800067722 /* ActivitySelectionView.swift in Sources */,
 				305A67DE2FB3C70800067722 /* DailySpotlightHostView.swift in Sources */,
 				305A67DF2FB3C70800067722 /* LevelStageCell.swift in Sources */,
@@ -434,12 +485,15 @@
 				305A67E42FB3C70800067722 /* AmbientGridBackdrop.swift in Sources */,
 				305A67E52FB3C70800067722 /* AppPrimaryButton.swift in Sources */,
 				305A67E62FB3C70800067722 /* GameResultView.swift in Sources */,
+				8887B5792FB6039B0037DC4D /* MiraluneEchofieldManager.swift in Sources */,
 				305A67E72FB3C70800067722 /* LayeredBackground.swift in Sources */,
 				305A67E82FB3C70800067722 /* TodaysSpotlightNavigateCard.swift in Sources */,
+				8887B5772FB603820037DC4D /* MiraluneEchofieldModels.swift in Sources */,
 				305A67E92FB3C70800067722 /* FeedbackEffects.swift in Sources */,
 				305A67EA2FB3C70800067722 /* AppDelegate.swift in Sources */,
 				305A67EB2FB3C70800067722 /* ContentView.swift in Sources */,
 				305A67EC2FB3C70800067722 /* SceneDelegate.swift in Sources */,
+				8887B57D2FB603B10037DC4D /* MiraluneEchofieldUI.swift in Sources */,
 				305A67ED2FB3C70800067722 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 175MiraluneEchofield/175MiraluneEchofield.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -479,6 +534,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Miralune Echofield";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.card-games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access so you can take pictures of your score.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -490,7 +546,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ava.m1r6l8n33ch0f13ld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -513,6 +569,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 175MiraluneEchofield/175MiraluneEchofield.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -520,6 +577,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Miralune Echofield";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.card-games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access so you can take pictures of your score.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -531,7 +589,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ava.m1r6l8n33ch0f13ld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -689,6 +747,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8887B56F2FB602CD0037DC4D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.0;
+			};
+		};
+		8887B5722FB602DD0037DC4D /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8887B5702FB602CD0037DC4D /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8887B56F2FB602CD0037DC4D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		8887B5732FB602DD0037DC4D /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8887B5722FB602DD0037DC4D /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 305A64BD2FB3B02E00067722 /* Project object */;
 }

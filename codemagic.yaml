@@ -8,7 +8,7 @@ workflows:
           XCODE_WORKSPACE: "175MiraluneEchofield.xcworkspace"
           XCODE_SCHEME: "175MiraluneEchofield"
           BUNDLE_ID: "com.ava.m1r6l8n33ch0f13ld"
-          APP_STORE_APP_ID: 6764544142
+          APP_STORE_APP_ID: 6756367614
         xcode: latest
         cocoapods: 1.14.2
       scripts:
